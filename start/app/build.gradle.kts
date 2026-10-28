@@ -24,6 +24,12 @@ android {
         vectorDrawables.useSupportLibrary = true
     }
 
+    signingConfigs {
+        getByName("debug") {
+            storeFile = file("${System.getProperty("user.home")}/.android/debug.keystore")
+        }
+    }
+
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false
