@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3188acc8-b78e-4544-923f-e3532556e00c" name="Changes" comment="git commit -m &quot;feat: configurar Firebase Authentication y solucionar errores de compilación&#10;&#10;- Se actualizaron las dependencias y la configuración de Gradle para que el proyecto compile correctamente.&#10;- Se mejoró el manejo de nulos y excepciones en la capa de servicios (AccountServiceImpl, SplashViewModel).&#10;- Se agregó el archivo google-services.json real para conectar con Firebase.&#10;- Se habilitó y verificó la autenticación (Anónima y Correo/Contraseña) y Firestore Database.&quot;">
+    <list default="true" id="3188acc8-b78e-4544-923f-e3532556e00c" name="Changes" comment="feat: implementar la funcionalidad de crear cuenta y vincular credenciales&#10;&#10;- Se actualizó AccountServiceImpl.kt para utilizar linkWithCredential de forma segura.&#10;- Se implementó la llamada a accountService.linkAccount en SignUpViewModel.kt.&#10;- Se comprobó la validación de contraseñas robustas.&#10;- Se verificó el flujo completo: paso de cuenta anónima a cuenta registrada y actualización de la UI en SettingsScreen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/impl/AccountServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/impl/AccountServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/tasks/TasksScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/tasks/TasksScreen.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,11 +175,20 @@
       <option name="project" value="LOCAL" />
       <updated>1793228262517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: implementar la funcionalidad de crear cuenta y vincular credenciales&#10;&#10;- Se actualizó AccountServiceImpl.kt para utilizar linkWithCredential de forma segura.&#10;- Se implementó la llamada a accountService.linkAccount en SignUpViewModel.kt.&#10;- Se comprobó la validación de contraseñas robustas.&#10;- Se verificó el flujo completo: paso de cuenta anónima a cuenta registrada y actualización de la UI en SettingsScreen.">
+      <option name="closed" value="true" />
+      <created>1793229675238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1793229675238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git commit -m &quot;feat: configurar Firebase Authentication y solucionar errores de compilación&#10;&#10;- Se actualizaron las dependencias y la configuración de Gradle para que el proyecto compile correctamente.&#10;- Se mejoró el manejo de nulos y excepciones en la capa de servicios (AccountServiceImpl, SplashViewModel).&#10;- Se agregó el archivo google-services.json real para conectar con Firebase.&#10;- Se habilitó y verificó la autenticación (Anónima y Correo/Contraseña) y Firestore Database.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;feat: configurar Firebase Authentication y solucionar errores de compilación&#10;&#10;- Se actualizaron las dependencias y la configuración de Gradle para que el proyecto compile correctamente.&#10;- Se mejoró el manejo de nulos y excepciones en la capa de servicios (AccountServiceImpl, SplashViewModel).&#10;- Se agregó el archivo google-services.json real para conectar con Firebase.&#10;- Se habilitó y verificó la autenticación (Anónima y Correo/Contraseña) y Firestore Database.&quot;" />
+    <MESSAGE value="feat: implementar la funcionalidad de crear cuenta y vincular credenciales&#10;&#10;- Se actualizó AccountServiceImpl.kt para utilizar linkWithCredential de forma segura.&#10;- Se implementó la llamada a accountService.linkAccount en SignUpViewModel.kt.&#10;- Se comprobó la validación de contraseñas robustas.&#10;- Se verificó el flujo completo: paso de cuenta anónima a cuenta registrada y actualización de la UI en SettingsScreen." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementar la funcionalidad de crear cuenta y vincular credenciales&#10;&#10;- Se actualizó AccountServiceImpl.kt para utilizar linkWithCredential de forma segura.&#10;- Se implementó la llamada a accountService.linkAccount en SignUpViewModel.kt.&#10;- Se comprobó la validación de contraseñas robustas.&#10;- Se verificó el flujo completo: paso de cuenta anónima a cuenta registrada y actualización de la UI en SettingsScreen." />
   </component>
 </project>
